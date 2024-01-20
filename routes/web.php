@@ -56,7 +56,8 @@ Route::get('about' , [HomeController::class, 'about'] );
 Route::get('service' , [HomeController::class, 'service'] );
 Route::get('contact' , [HomeController::class, 'contact'] );
 Route::get('login' , [HomeController::class, 'login'] );
-
+Route::get('employees' , [HomeController::class, 'employees'] );
+Route::get('employeelist' , [HomeController::class, 'employeelist'] );
 
 
 
